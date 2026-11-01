@@ -50,8 +50,15 @@
 
     splide.mount(window.splide.Extensions);
 
-    const lightbox2023 = GLightbox({
-        selector: '[data-gallery="gallery-2023"]',
+    const lightbox2026 = GLightbox({
+        selector: '[data-gallery="gallery-2026"]',
+        touchNavigation: true,
+        loop: true,
+        zoomable: true,
+    });
+
+    const lightbox2025 = GLightbox({
+        selector: '[data-gallery="gallery-2026"]',
         touchNavigation: true,
         loop: true,
         zoomable: true,
@@ -64,10 +71,11 @@
         zoomable: true,
     });
 
-    const lightbox2025 = GLightbox({
-        selector: '[data-gallery="gallery-2025"]',
+    const lightbox2023 = GLightbox({
+        selector: '[data-gallery="gallery-2023"]',
         touchNavigation: true,
         loop: true,
         zoomable: true,
     });
+
 })(window.jQuery);
