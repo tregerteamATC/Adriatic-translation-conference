@@ -58,7 +58,7 @@
     });
 
     const lightbox2025 = GLightbox({
-        selector: '[data-gallery="gallery-2026"]',
+        selector: '[data-gallery="gallery-2025"]',
         touchNavigation: true,
         loop: true,
         zoomable: true,
